@@ -1,7 +1,7 @@
 <template>
     <div>
         <h1>Create Employee page</h1>
-        <Form @submitForm="addEmployee" />
+        <Form @submit-profile="addEmployee" />
         <Table :employees="employees" />
     </div>
 </template>
